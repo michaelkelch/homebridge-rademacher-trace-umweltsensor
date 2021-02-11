@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 
 var now = new Date();
 
-main("http://192.168.0.172/devices", 9000);
+main("http://192.168.0.172/devices", 90000);
 
 function main(adresse, intervall) {
   // Parameter:  IPadresse des ArdemacherHomepoliot und Ausgabeintervall in mSeC
